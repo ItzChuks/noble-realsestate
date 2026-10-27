@@ -1,0 +1,61 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Noble Estates & Motors | Homes and cars you can trust</title><meta name="description" content="Verified homes for sale and rent, and inspected cars for sale. Message us on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script><script src="js/config.js"></script><script src="js/pb.js"></script><script src="js/app.js"></script></head>
+<body class="bg-bg text-ink font-sans antialiased transition-colors"><div id="nav"></div>
+<main>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 pt-12 md:pt-16">
+ <h1 class="rise font-display font-bold text-4xl sm:text-6xl tracking-tight leading-[1.04] max-w-3xl">Homes to live in. Cars to drive. One team you can trust.</h1>
+ <p class="rise text-mute text-lg mt-5 max-w-xl" style="animation-delay:80ms">Every home and car is checked before it goes online. Message us on WhatsApp and book a viewing or a test drive the same day.</p>
+ <div class="grid md:grid-cols-2 gap-4 mt-10">
+<section class="rise relative rounded-3xl overflow-hidden min-h-[30rem] flex flex-col justify-end" style="animation-delay:160ms" aria-labelledby="h-property">
+ <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=70" alt="" class="absolute inset-0 w-full h-full object-cover" onerror="this.remove()">
+ <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/5"></div>
+ <div class="relative p-5 sm:p-7">
+  <p id="cnt-property" class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white/90 text-slate-800 min-h-[1.5rem]">&nbsp;</p>
+  <h2 id="h-property" class="font-display text-4xl sm:text-5xl font-bold text-white mt-3">Homes</h2>
+  <p class="text-white/85 mt-2 max-w-sm">Houses, apartments and villas for sale and rent.</p>
+  <form id="s-property" class="mt-5 bg-surface rounded-2xl p-2.5 grid grid-cols-2 gap-2"><select name="houseType" aria-label="House type" class="inp"><option value="">Any house type</option></select><select name="status" aria-label="Buy or rent" class="inp"><option value="">Buy or rent</option><option value="Sale">For sale</option><option value="Rent">For rent</option></select><button class="col-span-2 rounded-xl py-3 font-semibold bg-home text-onacc hover:opacity-90 transition">Search homes</button></form>
+ </div></section><section class="rise relative rounded-3xl overflow-hidden min-h-[30rem] flex flex-col justify-end" style="animation-delay:280ms" aria-labelledby="h-car">
+ <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1200&q=70" alt="" class="absolute inset-0 w-full h-full object-cover" onerror="this.remove()">
+ <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-black/5"></div>
+ <div class="relative p-5 sm:p-7">
+  <p id="cnt-car" class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-white/90 text-slate-800 min-h-[1.5rem]">&nbsp;</p>
+  <h2 id="h-car" class="font-display text-4xl sm:text-5xl font-bold text-white mt-3">Cars</h2>
+  <p class="text-white/85 mt-2 max-w-sm">New and used cars with documents checked.</p>
+  <form id="s-car" class="mt-5 bg-surface rounded-2xl p-2.5 grid grid-cols-2 gap-2"><select name="make" aria-label="Make" class="inp"><option value="">Any make</option></select><select name="condition" aria-label="Condition" class="inp"><option value="">Any condition</option></select><button class="col-span-2 rounded-xl py-3 font-semibold bg-motor text-onacc hover:opacity-90 transition">Search cars</button></form>
+ </div></section>
+ </div>
+</div>
+<section class="max-w-7xl mx-auto px-4 sm:px-6 mt-24">
+ <div class="flex items-end justify-between gap-4 mb-8"><div><h2 class="font-display text-3xl sm:text-4xl font-bold">Latest homes</h2><p class="text-mute mt-2">Freshly added by our team.</p></div><a href="properties.html" class="font-semibold text-home hover:underline shrink-0">See all homes</a></div>
+ <div id="latestHomes" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+</section>
+<section class="max-w-7xl mx-auto px-4 sm:px-6 mt-24">
+ <div class="flex items-end justify-between gap-4 mb-8"><div><h2 class="font-display text-3xl sm:text-4xl font-bold">Latest cars</h2><p class="text-mute mt-2">Ready to view and test drive.</p></div><a href="cars.html" class="font-semibold text-motor hover:underline shrink-0">See all cars</a></div>
+ <div id="latestCars" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+</section>
+<section class="max-w-7xl mx-auto px-4 sm:px-6 mt-24 grid md:grid-cols-2 gap-x-12 gap-y-10">
+ <div><h2 class="font-display text-2xl font-bold text-home">Before a home goes live</h2>
+  <ul class="mt-4 space-y-3 text-mute border-l-2 border-home pl-5"><li>We visit and photograph it ourselves, so what you see is what you get.</li><li>Titles and agreements are checked for buyers and tenants alike.</li><li>The price on the page is the price we quote, with no hidden agency surprises.</li></ul></div>
+ <div><h2 class="font-display text-2xl font-bold text-motor">Before a car goes live</h2>
+  <ul class="mt-4 space-y-3 text-mute border-l-2 border-motor pl-5"><li>Customs and ownership papers are confirmed.</li><li>Mileage, service history and condition are inspected and stated honestly.</li><li>You can bring your own mechanic and take a test drive before you pay.</li></ul></div>
+</section>
+<section class="max-w-7xl mx-auto px-4 sm:px-6 mt-24"><div class="rounded-3xl bg-ink text-bg p-10 md:p-14 flex flex-col md:flex-row gap-6 md:items-center justify-between">
+ <div><h2 class="font-display text-3xl font-bold">Not sure what you need?</h2><p class="mt-2 opacity-80 max-w-md">Tell us your budget and what you are after. We will shortlist homes or cars for you.</p></div>
+ <a id="ctaWa" target="_blank" rel="noopener" class="rounded-xl px-7 py-3 font-semibold bg-bg text-ink text-center hover:opacity-90 transition shrink-0">Chat on WhatsApp</a></div></section>
+</main><div id="footer"></div>
+<script>
+chrome('index.html');
+const $=id=>document.getElementById(id);
+OPT.houseType.forEach(t=>$('s-property').houseType.insertAdjacentHTML('beforeend',`<option>${t}</option>`));
+$('s-car').make.insertAdjacentHTML('beforeend',oh(MAKES));
+$('s-car').condition.insertAdjacentHTML('beforeend',oh(OPT.condition));
+for(const [k,page] of [['property','properties.html'],['car','cars.html']]){
+ const f=$('s-'+k);
+ f.onsubmit=e=>{e.preventDefault();const p=new URLSearchParams();[...f.elements].forEach(x=>{if(x.name&&x.value)p.set(x.name,x.value)});location.href=page+'?'+p};
+}
+$('ctaWa').href=wa('Hello Noble, I need help finding a home or a car.');
+latest('property','latestHomes','cnt-property');
+latest('car','latestCars','cnt-car');
+</script></body></html>
