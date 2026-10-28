@@ -1,7 +1,7 @@
 /* Noble Estates & Motors: site settings. This is the only file you need to edit. */
 
 // Your WhatsApp number: country code first, digits only (no + or spaces).
-const WA_NUMBER = '2340000000000';
+const WA_NUMBER = '2348026701578';
 
 // Your live PocketBase address on Railway (no trailing slash).
 // Paste it after you generate the domain in Railway, e.g. 'https://noble-production.up.railway.app'
